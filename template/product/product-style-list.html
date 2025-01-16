@@ -1,0 +1,525 @@
+
+
+{% extends "base\base.html" %}
+{% load static %}
+{% block body %}
+        <!-- /header -->
+
+        <!-- page-title -->
+        <div class="tf-page-title">
+            <div class="container-full">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading text-center">New Arrival</div>
+                        <p class="text-center text-2 text_black-2 mt_5">Shop through our latest selection of Fashion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /page-title -->
+        <section class="flat-spacing-1">
+            <div class="container">
+                <div class="grid-layout" data-grid="grid-list">
+                    <!-- card product 1 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <a href="#" class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/orange-1.jpg" src="/statc/images/products/orange-1.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/white-1.jpg" src="/statc/images/products/white-1.jpg" alt="image-product">
+                            </a>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Ribbed Tank Top</a>
+                            <span class="price">$16.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item hover-tooltip color-swatch active">
+                                    <span class="tooltip tooltip-bottom">Orange</span>
+                                    <span class="swatch-value bg_orange-3"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/orange-1.jpg" src="/statc/images/products/orange-1.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-1.jpg" src="/statc/images/products/black-1.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-1.jpg" src="/statc/images/products/white-1.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                                <span>XL</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3 hover-tooltip"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3 hover-tooltip"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3 hover-tooltip"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3 hover-tooltip"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 2 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/brown.jpg" src="/statc/images/products/brown.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/purple.jpg" src="/statc/images/products/purple.jpg" alt="image-product">
+                            </div>
+                            <div class="countdown-box">
+                                <div class="js-countdown" data-timer="1007500" data-labels="d :,h :,m :,s"></div>
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Ribbed modal T-shirt</a>
+                            <span class="price">From $18.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Brown</span>
+                                    <span class="swatch-value bg_brown"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/brown.jpg" src="/statc/images/products/brown.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Light Purple</span>
+                                    <span class="swatch-value bg_purple"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/purple.jpg" src="/statc/images/products/purple.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Light Green</span>
+                                    <span class="swatch-value bg_light-green"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/green.jpg" src="/statc/images/products/green.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                                <span>XL</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 3 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/white-3.jpg" src="/statc/images/products/white-3.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/white-4.jpg" src="/statc/images/products/white-4.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Oversized Printed T-shirt</a>
+                            <span class="price">$10.00</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 4 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/white-2.jpg" src="/statc/images/products/white-2.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/pink-1.jpg" src="/statc/images/products/pink-1.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Oversized Printed T-shirt</a>
+                            <span class="price">$16.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-2.jpg" src="/statc/images/products/white-2.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Pink</span>
+                                    <span class="swatch-value bg_purple"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/pink-1.jpg" src="/statc/images/products/pink-1.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-2.jpg" src="/statc/images/products/black-2.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                                <span>XL</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 5 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/brown-2.jpg" src="/statc/images/products/brown-2.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/brown-3.jpg" src="/statc/images/products/brown-3.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">V-neck linen T-shirt</a>
+                            <span class="price">$114.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Brown</span>
+                                    <span class="swatch-value bg_brown"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/brown-2.jpg" src="/statc/images/products/brown-2.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-5.jpg" src="/statc/images/products/white-5.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                                <span>XL</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 6 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/light-green-1.jpg" src="/statc/images/products/light-green-1.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/light-green-2.jpg" src="/statc/images/products/light-green-2.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Loose Fit Sweatshirt</a>
+                            <span class="price">$10.00</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Light Green</span>
+                                    <span class="swatch-value bg_light-green"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/light-green-1.jpg" src="/statc/images/products/light-green-1.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-3.jpg" src="/statc/images/products/black-3.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Blue</span>
+                                    <span class="swatch-value bg_blue-2"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/blue.jpg" src="/statc/images/products/blue.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Dark Blue</span>
+                                    <span class="swatch-value bg_dark-blue"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/dark-blue.jpg" src="/statc/images/products/dark-blue.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-6.jpg" src="/statc/images/products/white-6.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Light Grey</span>
+                                    <span class="swatch-value bg_light-grey"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/light-grey.jpg" src="/statc/images/products/light-grey.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 7 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/black-4.jpg" src="/statc/images/products/black-4.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/black-5.jpg" src="/statc/images/products/black-5.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Regular Fit Oxford Shirt</a>
+                            <span class="price">$10.00</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-4.jpg" src="/statc/images/products/black-4.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Dark Blue</span>
+                                    <span class="swatch-value bg_dark-blue"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/dark-blue-2.jpg" src="/statc/images/products/dark-blue-2.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Beige</span>
+                                    <span class="swatch-value bg_beige"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/beige.jpg" src="/statc/images/products/beige.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Light Blue</span>
+                                    <span class="swatch-value bg_light-blue"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/light-blue.jpg" src="/statc/images/products/light-blue.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-7.jpg" src="/statc/images/products/white-7.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 8 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/white-8.jpg" src="/statc/images/products/white-8.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/black-6.jpg" src="/statc/images/products/black-6.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Loose Fit Hoodie</a>
+                            <span class="price">$9.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-8.jpg" src="/statc/images/products/white-8.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-7.jpg" src="/statc/images/products/black-7.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Blue</span>
+                                    <span class="swatch-value bg_blue-2"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/blue-2.jpg" src="/statc/images/products/blue-2.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                                <span>XL</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 9 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/brown-4.jpg" src="/statc/images/products/brown-4.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/black-8.jpg" src="/statc/images/products/black-8.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Patterned scarf</a>
+                            <span class="price">$14.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Brown</span>
+                                    <span class="swatch-value bg_brown"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/brown-4.jpg" src="/statc/images/products/brown-4.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-8.jpg" src="/statc/images/products/black-8.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>M</span>
+                                <span>L</span>
+                                <span>XL</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 10 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/black-9.jpg" src="/statc/images/products/black-9.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/black-10.jpg" src="/statc/images/products/black-10.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Slim Fit Fine-knit Turtleneck Sweater</a>
+                            <span class="price">$18.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Black</span>
+                                    <span class="swatch-value bg_dark"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/black-9.jpg" src="/statc/images/products/black-9.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">White</span>
+                                    <span class="swatch-value bg_white"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/white-9.jpg" src="/statc/images/products/white-9.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 11 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/grey-2.jpg" src="/statc/images/products/grey-2.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/grey.jpg" src="/statc/images/products/grey.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Slim Fit Fine-knit Turtleneck Sweater</a>
+                            <span class="price">$18.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+                            <ul class="list-color-product">
+                                <li class="list-color-item color-swatch active">
+                                    <span class="tooltip">Grey</span>
+                                    <span class="swatch-value bg_grey"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/grey-2.jpg" src="/statc/images/products/grey-2.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Pink</span>
+                                    <span class="swatch-value bg_pink"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/pink-2.jpg" src="/statc/images/products/pink-2.jpg" alt="image-product">
+                                </li>
+                                <li class="list-color-item color-swatch">
+                                    <span class="tooltip">Light Pink</span>
+                                    <span class="swatch-value bg_light-pink"></span>
+                                    <img class="lazyload" data-src="/statc/images/products/light-pink.jpg" src="/statc/images/products/light-pink.jpg" alt="image-product">
+                                </li>
+                            </ul>
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card product 12 -->
+                    <div class="card-product list-layout">
+                        <div class="card-product-wrapper">
+                            <div class="product-img">
+                                <img class="lazyload img-product" data-src="/statc/images/products/black-11.jpg" src="/statc/images/products/black-11.jpg" alt="image-product">
+                                <img class="lazyload img-hover" data-src="/statc/images/products/black-12.jpg" src="/statc/images/products/black-12.jpg" alt="image-product">
+                            </div>
+                        </div>
+                        <div class="card-product-info">
+                            <a href="#" class="title link">Slim Fit Fine-knit Turtleneck Sweater</a>
+                            <span class="price">$18.95</span>
+                            <p class="description">Button-up shirt sleeves and a relaxed silhouette. It’s tailored with drapey, crinkle-texture fabric that’s made from LENZING™ ECOVERO™ Viscose — responsibly sourced wood-based fibres produced through a process that reduces...</p>
+
+                            <div class="size-list">
+                                <span>S</span>
+                                <span>M</span>
+                                <span>L</span>
+                            </div>
+                            <div class="list-product-btn">
+                                <a href="#quick_add" data-bs-toggle="modal" class="box-icon quick-add style-3"><span class="icon icon-bag"></span><span class="tooltip">Quick add</span></a>
+                                <a href="#" class="box-icon wishlist style-3"><span class="icon icon-heart"></span> <span class="tooltip">Add to Wishlist</span></a>
+                                <a href="#compare" data-bs-toggle="offcanvas" class="box-icon compare style-3"><span class="icon icon-compare"></span> <span class="tooltip">Add to Compare</span></a>
+                                <a href="#quick_view" data-bs-toggle="modal" class="box-icon quickview style-3"><span class="icon icon-view"></span><span class="tooltip">Quick view</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- pagination -->
+                <ul class="tf-pagination-wrap tf-pagination-list">
+                    <li class="active">
+                        <a href="#" class="pagination-link">1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pagination-link animate-hover-btn">2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pagination-link animate-hover-btn">3</a>
+                    </li>
+                    <li>
+                        <a href="#" class="pagination-link animate-hover-btn">
+                            <span class="icon icon-arrow-right"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- footer -->
+  {% endblock %}
